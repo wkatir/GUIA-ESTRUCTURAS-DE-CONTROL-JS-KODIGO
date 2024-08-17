@@ -52,8 +52,6 @@ const gradeVerify = () => {
   }
 };
 
-gradeVerify();
-
 /* let exam = 10;
 let homework = 10;
 let attendance = 10;

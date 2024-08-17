@@ -13,8 +13,6 @@ const ageVerify = () => {
   }
 };
 
-ageVerify();
-
 /* const ageVerify = (age) => {
     console.log(`${age >= 18 ? "Eres mayor de edad" : "Eres menor de edad"}`); 
 }
