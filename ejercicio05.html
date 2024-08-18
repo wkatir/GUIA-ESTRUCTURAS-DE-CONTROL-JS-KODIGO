@@ -30,9 +30,21 @@
         Mostrar en html el coche seleccionado y el descuento que se aplicara en
         base a lo que selecciono el usuario
       </p>
-      <div class="bottons">
-        <button onclick="">Ejercicio</button>
-      </div>
+      <main class="container">
+        <h2>Calculadora de Descuento de Coches</h2>
+        <form id="carForm">
+          <label for="carSelect">Selecciona el coche: </label>
+          <select name="carSelect" id="carSelect">
+            <option value="FORD FIESTA">FORD FIESTA</option>
+            <option value="FORD FOCUS">FORD FOCUS</option>
+            <option value="FORD ESCAPE">FORD ESCAPE</option>
+          </select>
+          <button type="button" onclick="calculateDiscount();">
+            Calcular Descuento
+          </button>
+        </form>
+        <div id="result" class="result"></div>
+      </main>
     </section>
     <script src="./js/ejercicio05.js"></script>
   </body>

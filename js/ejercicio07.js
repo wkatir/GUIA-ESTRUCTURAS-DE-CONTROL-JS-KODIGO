@@ -43,4 +43,3 @@ const analyzeNumbers = () => {
   alert(`Cantidad de múltiplos de 15: ${multiplesOf15Count}`);
   alert(`Valor acumulado de los números pares: ${evenSum}`);
 };
-
