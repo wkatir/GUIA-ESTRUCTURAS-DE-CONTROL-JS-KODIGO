@@ -6,7 +6,7 @@ Si el usuario introduce como origen la ciudad de Palma y como destino La costa d
 descuento será de 5%, si el destino es Panchimalco el descuento será del 10% y si el destino
 es Puerto el Triunfo el descuento será del 15%. */
 
-const calculateDiscount = () => {
+const calculateTravelDiscount = () => {
   const origin = prompt("Introduce la ciudad de origen: ").toLowerCase();
   const destination = prompt("Introduce el destino: ").toLowerCase();
   const baseCost = parseFloat(prompt("Introduce el costo del viaje: "));
