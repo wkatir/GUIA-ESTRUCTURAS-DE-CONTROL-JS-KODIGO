@@ -69,33 +69,3 @@ const salaryIncrease = () => {
   }
 };
 
-/* const employeeName = "Arturo";
-const salary = 1000;
-let category = "D";
-const increaseA = 0.15;
-const increaseB = 0.30;
-const increaseC = 0.10;
-const increaseD = 0.20;
-let increasefinal = salary; 
-
-switch(category) {
-    case "A":
-        increasefinal += salary * increaseA;    
-        console.log(`El salario final es ${increasefinal} por categoria A`);
-        break;
-    case "B":
-        increasefinal += salary * increaseB;
-        console.log(`El salario final es ${increasefinal} por categoria B`);
-        break;
-    case "C":
-        increasefinal += salary * increaseC;
-        console.log(`El salario final es ${increasefinal} por categoria C`);
-        break;
-    case "D":
-        increasefinal += salary * increaseD;
-        console.log(`El salario final es ${increasefinal} por categoria D`);
-        break;
-    default:
-        console.log("Ingrese una opcion valida");    
-}
- */

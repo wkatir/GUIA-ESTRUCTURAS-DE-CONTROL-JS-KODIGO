@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodigo Js</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset-css.css" />
+  </head>
+  <body>
+    <header class="header"></header>
+    <main class="container">
+      <section class="section-exercise">
+        <h2>Ejercicio 1</h2>
+        <p>
+          Crear una función que en base a la edad que ingreso el usuario
+          devolver un mensaje si la persona es mayor de edad o no. Utilizar para
+          la condición el operador ternario.
+        </p>
+        <div class="bottons">
+          <button onclick="ageVerify();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 2</h2>
+        <p>
+          Crear una función que determine la nota final de un alumno, la cual
+          depende de lo siguiente:
+        </p>
+        <ul>
+          <li>Examen = 20%</li>
+          <li>Tareas = 40%</li>
+          <li>Asistencia = 10%</li>
+          <li>Investigación = 30%</li>
+        </ul>
+        <p>
+          Al final deberá mostrar los datos del alumno, nombre, carnet y nota
+          final.
+        </p>
+        <div class="bottons">
+          <button onclick="gradeVerify();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 3</h2>
+        <table class="section-exercise-table">
+          <tr>
+            <th>Categoria</th>
+            <th>Aumento</th>
+          </tr>
+          <tr>
+            <td>A:</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>B:</td>
+            <td>30%</td>
+          </tr>
+          <tr>
+            <td>C:</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>D:</td>
+            <td>20%</td>
+          </tr>
+        </table>
+        <p>
+          Calcular el aumento de trabajador tomando en cuenta la tabla de
+          categorías de aumento. Para este ejercicio deberá de asignar las
+          siguientes variables: nombre, salario, categoría y aumento. Deberá
+          demostrar los datos del empleado y el aumento salarial.
+        </p>
+        <div class="bottons">
+          <button onclick="salaryIncrease();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 4</h2>
+        <p>
+          Crear una función que en base a 2 números enteros que ingrese el
+          usuario, calcular cual número es el mayor y devolverlo.
+        </p>
+        <div class="bottons">
+          <button onclick="findMaximum();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 5</h2>
+        <p>
+          Realizar una función para una tienda de coches en donde se deberá
+          calcular: Si el coche a la venta es un FORD FIESTA, aplicar un 5% de
+          descuento en la compra. Si el coche a la venta es un FORD FOCUS, el
+          descuento será del 10% y si es un FORD ESCAPE el descuento será del
+          20%. Mostrar en html el coche seleccionado y el descuento que se
+          aplicara en base a lo que selecciono el usuario
+        </p>
+        <main class="container">
+          <h2>Calculadora de Descuento de Coches</h2>
+          <form id="carForm">
+            <label for="carSelect">Selecciona el coche: </label>
+            <select name="carSelect" id="carSelect">
+              <option value="FORD FIESTA">FORD FIESTA</option>
+              <option value="FORD FOCUS">FORD FOCUS</option>
+              <option value="FORD ESCAPE">FORD ESCAPE</option>
+            </select>
+            <button type="button" onclick="calculateDiscount();">
+              Calcular Descuento
+            </button>
+          </form>
+          <div id="result" class="result"></div>
+        </main>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 6</h2>
+        <p>
+          Crear una Función para calcular el descuento en viajes turísticos
+          tomando en cuenta lo siguiente:
+        </p>
+        <p>
+          Si el usuario introduce como origen la ciudad de Palma y como destino
+          La costa del Sol, el descuento será de 5%, si el destino es
+          Panchimalco el descuento será del 10% y si el destino es Puerto el
+          Triunfo el descuento será del 15%.
+        </p>
+        <div class="bottons">
+          <button onclick="calculateDiscount();">Ejercicio</button>
+        </div>
+      </section>
+      <section class="section-exercise">
+        <h2>Ejercicio 7</h2>
+        <p>
+          Se realiza la carga de 10 valores enteros por teclado. Se desea
+          conocer:
+        </p>
+        <ul>
+          <li>La cantidad de valores negativos ingresados.</li>
+          <li>La cantidad de valores positivos ingresados.</li>
+          <li>La cantidad de múltiplos de 15.</li>
+          <li>El valor acumulado de los números ingresados que son pares.</li>
+        </ul>
+        <div class="bottons">
+          <button onclick="analyzeNumbers();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 8</h2>
+        <p>
+          Escriba un programa que muestre la tabla de multiplicar del 1 al 10
+          del número ingresado por el usuario.
+        </p>
+        <div class="bottons">
+          <button onclick="multiplicationTable();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 9</h2>
+        <p>
+          Crear programa donde se introduce una temperatura en Celsius y salga
+          el resultado en Fahrenheit, una vez teniendo la temperatura en
+          Fahrenheit deberá devolver lo siguiente:
+        </p>
+        <ul>
+          <li>Si ºF está entre 14 y 32, sale la frase “Temperatura baja”</li>
+          <li>
+            Si ºF está entre 32 y 68, sale la frase “Temperatura adecuada”
+          </li>
+          <li>Si ºF está entre 68 y 96, sale la frase “Temperatura alta”</li>
+          <li>
+            Si no está entre ningún caso anterior la frase “Temperatura
+            desconocida”
+          </li>
+        </ul>
+        <div class="bottons">
+          <button onclick="evaluateTemperature();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+      <section class="section-exercise">
+        <h2>Ejercicio 10</h2>
+        <p>Se cuenta con la siguiente información:</p>
+        <ul>
+          <li>Las edades de 5 estudiantes del turno mañana.</li>
+          <li>Las edades de 6 estudiantes del turno tarde.</li>
+          <li>Las edades de 11 estudiantes del turno noche.</li>
+        </ul>
+        <p>
+          Nota: Las edades de cada estudiante se deberán ingresar por la web.
+        </p>
+        <p>Lo que queremos devolver:</p>
+        <ul>
+          <li>
+            Obtener el promedio de las edades de cada turno (tres promedios).
+          </li>
+          <li>Imprimir dichos promedios (promedio de cada turno).</li>
+          <li>
+            Mostrar por pantalla un mensaje que indique cuál de los tres turnos
+            tiene un promedio de edades mayor.
+          </li>
+        </ul>
+        <div class="bottons">
+          <button onclick="analyzeShifts();">Ejercicio</button>
+        </div>
+      </section>
+      <!--  Section -->
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/ejercicio01.js"></script>
+    <script src="./js/ejercicio02.js"></script>
+    <script src="./js/ejercicio03.js"></script>
+    <script src="./js/ejercicio04.js"></script>
+    <script src="./js/ejercicio05.js"></script>
+    <script src="./js/ejercicio06.js"></script>
+    <script src="./js/ejercicio07.js"></script>
+    <script src="./js/ejercicio08.js"></script>
+    <script src="./js/ejercicio09.js"></script>
+    <script src="./js/ejercicio010.js"></script>
+  </body>
+</html>

@@ -18,10 +18,10 @@ const calculateDiscount = () => {
   if (origin === "palma") {
     switch (destination) {
       case "la costa del sol":
-        discount =  0.05;
+        discount = 0.05;
         break;
       case "panchimalco":
-        discount = 0.10;
+        discount = 0.1;
         break;
       case "puerto el triunfo":
         discount = 0.15;

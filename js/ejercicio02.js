@@ -51,17 +51,3 @@ const gradeVerify = () => {
     );
   }
 };
-
-/* let exam = 10;
-let homework = 10;
-let attendance = 10;
-let research = 10;
-let studentName = "Wilmer Salazar";
-let idCarnet = "SM100223";
-
-const gradeVerify = (exam, homeworks, attendance, research, studentName, idCarnet) => {
-    let grade = (exam * 0.20) + (homework * 0.40) + (attendance * 0.10) + (research * 0.30);
-    console.log(`La nota de ${studentName} con id: ${idCarnet} su nota final es : ${grade} `);
-}
-
-gradeVerify(exam, homework, attendance, research, studentName, idCarnet); */

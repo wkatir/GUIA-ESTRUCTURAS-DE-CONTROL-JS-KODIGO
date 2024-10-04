@@ -23,4 +23,3 @@ const multiplicationTable = () => {
     alert("Por favor, ingresa un número válido.");
   }
 };
-
